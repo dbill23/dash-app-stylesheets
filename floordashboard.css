@@ -310,6 +310,32 @@ th:last-child,
 td:last-child {
   padding-right: 0; }
 
+/* added this is from goldman sacks report*/
+table{ width: 100% }
+td{ padding: 2px 0px }
+
+tr:nth-child(even) { background-color: #D7DBE1; }
+
+table.reversed tr:nth-child(odd) { background-color: #D7DBE1; }
+table.reversed tr:nth-child(even) { background-color: white; }
+
+table{ 
+	font-size: 0.95rem; 
+	border-spacing: 0;
+   border-collapse: collapse;
+}
+
+table.tiny-header tr:first-child{
+	font-size: 8px;
+}
+
+.columns{ margin-left: 0 !important; }
+
+.row > .columns:not(:first-child){
+	padding-left: 20px;
+}
+
+td, th { border: 0 }
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
