@@ -24,8 +24,6 @@
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
-  border-color: blue;
-  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
   box-sizing: border-box; }
 .column,
 .columns {
@@ -54,9 +52,9 @@
   .one.column,
   .one.columns                    { width: 8%;             }
   .two.columns                    { width: 16.25%;         }
-  .three.columns                  { width: 22%;            }
-  .four.columns                   { width: 33%;            }
-  .five.columns                   { width: 39.3333333333%; }
+  .three.columns                  { width: 25%;            }
+  .four.columns                   { width: 33.33%           }
+  .five.columns                   { width: 41.66%; }
   .six.columns                    { width: 49.75%;          }
   .seven.columns                  { width: 56.6666666667%; }
   .eight.columns                  { width: 66.5%;          }
