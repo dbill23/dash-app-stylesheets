@@ -23,7 +23,7 @@
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 20px;
   box-sizing: border-box; }
 .column,
 .columns {
@@ -105,51 +105,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
 Custome classes for Dashboard layout */
-.card {
-  border-radius: 6px;
-  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
-  background-color: #FFFFFF;
-  color: #252422;
-  margin-bottom: 20px;
-  position: relative;
-  z-index: 1; }
-  .card .image {
-    width: 100%;
-    overflow: hidden;
-    height: 260px;
-    border-radius: 6px 6px 0 0;
-    position: relative;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d; }
-    .card .image img {
-      width: 100%; }
-  .card .content {
-    padding: 15px 15px 10px 15px; }
-  .card .header {
-    padding: 20px 20px 0; }
-  .card .description {
-    font-size: 16px;
-    color: #66615b; }
-  .card h6 {
-    font-size: 12px;
-    margin: 0; }
-  .card .category,
-  .card label {
-    font-size: 14px;
-    font-weight: 400;
-    color: #9A9A9A;
-    margin-bottom: 0px; }
-    .card .category i,
-    .card label i {
-      font-size: 16px; }
-  .card label {
-    font-size: 15px;
-    margin-bottom: 5px; }
-  .card .title {
-    margin: 0;
-    color: #252422;
-    font-weight: 300; }
+
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
